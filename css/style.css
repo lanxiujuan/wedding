@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.fl{float:left;}
+.fr{float:right;}
+*{border:0;padding:0;margin:0}
+ul,ol{list-style:none;}
+.clear{clear:both}
+input,select{outline:none;}
+.margin0{margin-right:0!important;}
+.padding0{padding-right:0!important;}
+.nobg{background:none!important;}
+a:link,a:visited{text-decoration:none;color:#7e6133}
+body{font-family:"微软雅黑","宋体";font-size:14px;background:url(../images/bg.jpg) no-repeat center top #fbf4e2;color:#7e6133}
+
+#box{width:1338px;margin:0 auto;padding-right:46px;}
+/* 左侧 */
+.box_l{width:300px;}
+.box_l .logo{padding:35px 30px 0 0;width:270px;height:198px;}
+.box_l .nav{width:246px;}
+.box_l .nav ul li{height:25px;padding-bottom:2px;text-align:center;line-height:25px;margin:0 30px 0 36px;background:url(../images/libg.png) no-repeat left bottom;}
+.box_l .nav ul li a{display:block;}
+.box_l .nav ul .current a{background:url(../images/a.png) no-repeat 20px 3px}
+.box_l .nav ul .current2 a{background:url(../images/a.png) no-repeat 3px 3px}
+.box_l .nav ul li.home{margin:0 0 9px 0;height:35px;padding:0;background:url(../images/libg2.png) no-repeat;line-height:35px}
+.box_l .nav ul li.home a:link,.box_l .nav ul li.home a:visited{color:#fff}
+.box_l .music{padding:20px 0 0 70px;}
+
+/* 中间 */
+.box_m{width:750px;padding:102px 0 0 20px;}
+#lunbo{width:750px;height:500px;position:relative;overflow:hidden;}
+#lunbo ul li img{width:750px;height:500px;}
+#lunbo #zhezhao{width:750px;height:500px;position:absolute;top:0;left:0;z-index:1;opacity:0;background:#fff;_filter:alpha(opacity=0);}
+#lunbo #zhezhao a{width:750px;height:500px;display:block;}
+ .bt{padding-top:36px;text-align:center;font-size:12px;line-height:28px;color:#af8559}
+ 
+/* 右侧 */
+.box_r{width:173px;padding-top:214px;}
+.box_r .box_r1 img{padding:0 61px 0 57px;}
+.box_r a{text-align:center;display:block;line-height:53px;}
+.box_r a:link,.box_r a:visited{color:#7b6d6c}
+.box_r .box_r2 img{padding:0 46px;}
+.box_r .box_r2 p{line-height:35px;}
+.box_r .box_r3 img{padding:13px 65px 0 61px;}
+.box_r .box_r3 p{line-height:49px;}
+.box_r .box_r4 img{padding:0 56px 0 50px;}
+.box_r .box_r4 p{line-height:45px;}
+
+/* -----------------------------------------------关于我们中间部分------------------------------------------------- */
+.box_m1{width:770px;padding:90px 0 0 10px;}
+.box_m1 .about{width:750px;height:505px;background:url(../images/m2.png) no-repeat;color:#765725;font-size:13px;padding:10px 10px 5px 10px;}
+.box_m1 .about .hd{padding:12px 0 0 54px;height:40px;}
+.box_m1 .about .hd li{float:left;text-align:center;padding-top:26px;line-height:14px;width:150px;cursor:pointer;}
+.box_m1 .about .hd .xuanzhong{background:url(../images/libg3.png) no-repeat center top;}
+.box_m1 .about .bd .bd_cn{padding:44px 78px 0 28px}
+.box_m1 .about .bd .bd_cn .fl{padding:0 23px 30px 0}
+.box_m1 .about .bd .bd_cn p{padding-top:32px;line-height:22px;text-indent:2em;}
+
+/* ------------------------------------------------------case---------------------------------------------------- */
+.box_m2{width:746px;padding:102px 0 0 24px;}
+.case{height:512px;}
+.case .case_cn{height:480px;overflow:hidden;}
+.case .case_cn li{float:left;width:240px;margin-right:13px;height:160px;}
+.case .case_cn li a{display:block}
+.case .case_cn li img{border:1px solid #fff;width:238px;height:110px;-moz-box-shadow:1px 1px 5px #74594D;-webkit-box-shadow:1px 1px 5px #74594D;
+box-shadow:1px 1px 5px #74594D;}
+.case .case_cn li p{text-align:center;color:#735d34;font-size:13px;line-height:46px}
+.fanye{margin-top:12px;height:21px;background:url(../images/fanyebg.png) repeat-x;color:#563604;font-size:12px;line-height:21px;}
+.fanye li{float:left;height:21px;width:248px;text-align:center;cursor:pointer;}
+
+.box_r21{width:170px;padding:113px 2px 0 1px;}
+.box_r21 ul li{width:164px;height:76px;padding:3px 3px;margin-bottom:5px;background:url(../images/libg4.png) repeat;position:relative;}
+.box_r21 ul li a{display:block}
+.box_r21 ul li .text{position:absolute;left:0;bottom:0;width:170px;height:23px;text-align:center;line-height:23px;font-size:12px;background:url(../images/textbg.png) repeat-x;}
+/* ------------------------------------------------------case详细页---------------------------------------------------- */
+.box_m3{width:675px;padding:100px 0 0 68px;overflow:hidden;}
+.box_m3 .datu,.box_m3 .datu img{width:675px;height:450px;}
+.box_m3 .xiaotu{width:405px;height:40px;margin:17px 0 0 103px;background:#c7b79d;padding:4px 30px;}
+.box_m3 .xiaotu .leftbut{margin:15px 15px 15px 0;height:10px;width:10px;cursor:pointer;}
+.box_m3 .xiaotu .rightbut{margin:15px 0 15px 10px;height:10px;width:10px;cursor:pointer;}
+.box_m3 .xiaotu .tu{width:360px;height:40px;overflow:hidden;position:relative;}
+.box_m3 .xiaotu .tu ul{width:5000px;position:absolute;}
+.box_m3 .xiaotu .tu ul li{float:left;width:40px;height:40px;margin-right:5px;}
+.box_m3 .xiaotu .tu ul li img{width:40px;height:40px;cursor:pointer;}
